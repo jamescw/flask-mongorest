@@ -7,7 +7,8 @@ from bson.dbref import DBRef
 from bson.objectid import ObjectId
 from flask import request, url_for
 from urlparse import urlparse
-from mongoengine.base.proxy import DocumentProxy
+
+#from mongoengine.base.proxy import DocumentProxy  may have been deprecated? 
 from mongoengine.fields import EmbeddedDocumentField, ListField, ReferenceField, GenericReferenceField
 from mongoengine.fields import DateTimeField, DictField
 from werkzeug.datastructures import MultiDict
